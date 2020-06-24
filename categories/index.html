@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Categories</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<link rel="stylesheet" href="/assets/css/navbar.css" />
+
+
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+
+
+    
+    <link rel="stylesheet" href="/assets/css/list.css">
+
+
+    
+    
+  </head>
+
+  <body>
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    <nav class="navbar navbar-expand-lg top-navbar final-navbar shadow">
+    <div class="container">
+      <a class="navbar-brand" href="https://yeshichao.github.io/">
+        <img src="/assets/images/logo.png">来一杯气泡水</a>
+      <button class="navbar-toggler navbar-light" type="button" onclick="toggleSidebar()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="top-nav-items">
+        <ul class="navbar-nav ml-auto">
+        </ul>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+
+
+      
+      
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-tree">
+      <input type="text" name="filtr-search" value="" placeholder="Search" data-search="" id="search-box" />
+      <ul class="tree" id="tree">
+        <li id="list-heading"><a href="#" data-filter="all">Categories</a></li>
+        <div class="subtree">
+            
+
+        </div>
+      </ul>
+    </div>
+  </div>
+  <div class="content container-fluid" id="content">
+    <div class="content-cards">
+      <div class="container-fluid filtr-container post-cards" id="post-cards">
+        
+          <div class="filtr-item" data-category=''>
+  <a href="/posts/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/assets/images/default-hero.jpg'/>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">基于hexo和github搭建个人博客</h5>
+        <p class="card-text post-summery">[toc]
+1.创建github域名和空间 1.1注册 首先你需要注册一个Github账号，已有的可以下翻去1.2 创建仓库，注意username，这会影响到你的域名，你的域名将会是 http://username.github.io ，所以认真的取个名字吧。
+Create account
+1.2创建仓库 然后需要创建一个仓库(repository) 来存储我们的网站，点击首页任意位置出现的 New repository按钮创建仓库, Respository name 中的username.github.io 的username 一定与前面的Owner 一致，记住你的username下面会用到。
+Create reponsitory
+第一步就已经完成了，下面是安装。
+2.安装 Hexo 可以说是目前最流行的博客框架了，基于Nodejs，更多信息可以google，下面需要安装的工具包括 Git，Nodejs，Hexo。（Windows 用户自行搜索这些工具，直接安装即可，试过基本没啥问题）
+2.1安装git 首先，确认你的系统是否已安装git，可以通过git指令进行查看，如果没有，在命令行模式下输入sudo apt-get install git命令进行安装。
+可以通过
+(base) ysc@ysc-System-Product-Name:~$ git --version git version 2.17.1 查看
+2.2安装nodejs 先去nodejs官网下载安装包
+然后解压包(base) ysc@ysc-System-Product-Name:~$ xz -d node-v12.18.1-linux-x64.tar.xz (base) ysc@ysc-System-Product-Name:~$ tar -xvf node-v12.18.1-linux-x64.tar 解压完后添加环境变量，在~/.bashrc中添加
+# nodejs export NODE_HOME=/home/ysc/node-v12.18.1-linux-x64 export PATH=$PATH:$NODE_HOME/bin export NODE_PATH=$NODE_HOME/lib/node_modules ``` 保存后，source ~/.bashrc
+通过node -v查看当前版本
+(base) ysc@ysc-System-Product-Name:~$ node -v v12.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">June 23, 2020</span>
+        <a
+        href="/posts/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+        
+      </div>
+      
+    </div>
+  </div>
+
+    </div>
+
+    <footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        
+          <ul>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#home">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#about">About</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#skills">Skills</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#experiences">Experiences</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#projects">Projects</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#recent-posts">Recent Posts</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#achievements">Achievements</a>
+            </li>
+            
+          </ul>
+        
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>Contact Me</h5>
+        <ul>
+          
+          <li><span>Email: </span> <span>m18268833770@163.com</span></li>
+          
+          <li><span>Phone: </span> <span>None</span></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        
+        <p>Stay up to date with email notification</p>
+        <form>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4">
+        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
+          <img src="/assets/images/logo-inverted.png">
+          Toha
+        </a>
+      </div>
+      <div class="col-md-4">© 2019 Copyright.</div>
+      <div class="col-md-4">
+        Powered by <a href="https://gohugo.io/">Hugo
+        <img
+          src="/assets/images/hugo-logo-wide.svg"
+          alt="Hugo Logo"
+          height="18"
+        />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script src="/assets/js/navbar.js"></script>
+<script src="/assets/js/jquery.filterizr.min.js"></script>
+
+
+    
+    
+    <script src="/assets/js/list.js"></script>
+
+  </body>
+</html>

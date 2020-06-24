@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>来一杯气泡水</title>
+    <link>https://yeshichao.github.io/</link>
+    <description>Recent content on 来一杯气泡水</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 23 Jun 2020 16:19:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://yeshichao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>基于hexo和github搭建个人博客</title>
+      <link>https://yeshichao.github.io/posts/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 23 Jun 2020 16:19:42 +0800</pubDate>
+      
+      <guid>https://yeshichao.github.io/posts/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>[toc]
+1.创建github域名和空间 1.1注册 首先你需要注册一个Github账号，已有的可以下翻去1.2 创建仓库，注意username，这会影响到你的域名，你的域名将会是 http://username.github.io ，所以认真的取个名字吧。
+Create account
+1.2创建仓库 然后需要创建一个仓库(repository) 来存储我们的网站，点击首页任意位置出现的 New repository按钮创建仓库, Respository name 中的username.github.io 的username 一定与前面的Owner 一致，记住你的username下面会用到。
+Create reponsitory
+第一步就已经完成了，下面是安装。
+2.安装 Hexo 可以说是目前最流行的博客框架了，基于Nodejs，更多信息可以google，下面需要安装的工具包括 Git，Nodejs，Hexo。（Windows 用户自行搜索这些工具，直接安装即可，试过基本没啥问题）
+2.1安装git 首先，确认你的系统是否已安装git，可以通过git指令进行查看，如果没有，在命令行模式下输入sudo apt-get install git命令进行安装。
+可以通过
+(base) ysc@ysc-System-Product-Name:~$ git --version git version 2.17.1 查看
+2.2安装nodejs 先去nodejs官网下载安装包
+然后解压包(base) ysc@ysc-System-Product-Name:~$ xz -d node-v12.18.1-linux-x64.tar.xz (base) ysc@ysc-System-Product-Name:~$ tar -xvf node-v12.18.1-linux-x64.tar 解压完后添加环境变量，在~/.bashrc中添加
+# nodejs export NODE_HOME=/home/ysc/node-v12.18.1-linux-x64 export PATH=$PATH:$NODE_HOME/bin export NODE_PATH=$NODE_HOME/lib/node_modules ``` 保存后，source ~/.bashrc
+通过node -v查看当前版本
+(base) ysc@ysc-System-Product-Name:~$ node -v v12.</description>
+    </item>
+    
+  </channel>
+</rss>
